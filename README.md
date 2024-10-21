@@ -8,8 +8,10 @@ Use ```-m``` when:
 
 Simple Rule:
 
-Without -m: Python runs the file directly
-With -m: Python runs the file as part of a package
+Without ```-m```: Python runs the file directly.
+
+With ```-m```: Python runs the file as part of a package.
+
 ### ```os.getcwd()```
 ```bash
 import os
