@@ -124,3 +124,16 @@ The ```|``` (pipe) connects these actions
   ### ```which python```
   
 The ```which python``` command is a useful terminal command that shows you the path to the Python interpreter that's currently being used.
+
+## Import Issues in Notebooks (Jupyter/IPython)
+
+Jupyter notebooks can sometimes behave differently from regular Python scripts when it comes to imports.
+
+## Autoreload Extension
+
+```%load_ext autoreload```
+
+```%autoreload 2```
+
+
+
