@@ -92,7 +92,9 @@ print(sys.path)
 - os.getcwd() is like your current address
 - sys.path is like a list of all places you're allowed to get things from
 
-###  ```pip freeze | grep search_term```
+### For debugging dependency issues:
+
+```pip freeze | grep search_term```
 
  ### Breaking it down:
 
@@ -111,3 +113,10 @@ print(sys.path)
 ```grep``` is like using Ctrl+F to search in that list
 
 The ```|``` (pipe) connects these actions
+
+#### This is particularly useful for:
+
+- Debugging dependency issues
+- Checking package versions
+- Finding related packages
+- Creating requirements files
