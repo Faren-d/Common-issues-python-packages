@@ -10,7 +10,7 @@ print(os.getcwd())
 - Returns a single path as a string
 - Useful when you need to know where Python is running from
 
-
+### ```sys.path```
  ```bash
 import sys
 print(sys.path)
