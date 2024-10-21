@@ -1,4 +1,15 @@
 # Common-issues-python-packages
+
+Use ```-m``` when:
+
+- You get package/import errors
+- You're running a file that's part of a package
+- You need relative imports to work
+
+Simple Rule:
+
+Without -m: Python runs the file directly
+With -m: Python runs the file as part of a package
 ### ```os.getcwd()```
 ```bash
 import os
