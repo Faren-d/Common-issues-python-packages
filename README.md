@@ -17,9 +17,9 @@ The ```__package__``` variable is a special string variable that contains the pa
 
 print(f"package structure in module_b:{```__package__```}")
 
-When you see package structure in main_1.py: None, it means that Python doesn't recognize your module as part of a package. This is important to understand:
-
 ### What None means here:
+
+When you see ```package structure in main_1.py: None```, it means that Python doesn't recognize your module as part of a package. This is important to understand:
 
 - ```__package__``` is None when the module is being run as a standalone script
 - This typically means you're running the file directly (using python main_1.py)
