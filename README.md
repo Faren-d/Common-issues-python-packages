@@ -15,3 +15,8 @@ print(os.getcwd())
 import sys
 print(sys.path)
 ```
+## what it shows?
+- Shows all directories where Python looks for modules to import
+- It's like your Python "search path"
+- Returns a list of multiple paths
+- The first entry (sys.path[0]) is usually the same as os.getcwd()
