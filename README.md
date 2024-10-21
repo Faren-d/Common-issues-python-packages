@@ -20,3 +20,6 @@ print(sys.path)
 - It's like your Python "search path"
 - Returns a list of multiple paths
 - The first entry (sys.path[0]) is usually the same as os.getcwd()
+
+- os.getcwd() is like your current address
+- sys.path is like a list of all places you're allowed to get things from
