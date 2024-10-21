@@ -1,6 +1,6 @@
 # Common-issues-python-packages
 
-```bach
+```bash
 import os
 print(os.getcwd())
 ```
