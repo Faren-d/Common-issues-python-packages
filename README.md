@@ -6,6 +6,16 @@ A package in Python is simply a directory that contains Python modules (```.py``
 
 The ```__package__``` variable is a special string variable that contains the package name of the current module. It helps Python understand the module's location in the package hierarchy.
 
+### "ImportError: attempted relative import with no known parent package" error:
+
+1. This typically happens when you try to use relative imports (like from .. import something) but Python can't determine the package structure
+
+2. Common causes:
+- Running a module directly instead of as part of a package
+- Missing ```__init__```.py files
+- Incorrect directory structure
+
+
 ### Use ```-m``` when:
 
 - You get package/import errors
