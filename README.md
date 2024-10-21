@@ -120,3 +120,7 @@ The ```|``` (pipe) connects these actions
 - Checking package versions
 - Finding related packages
 - Creating requirements files
+
+  ### ```which python```
+  
+The ```which python``` command is a useful terminal command that shows you the path to the Python interpreter that's currently being used.
