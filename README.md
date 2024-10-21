@@ -6,6 +6,12 @@ Use ```-m``` when:
 - You're running a file that's part of a package
 - You need relative imports to work
 
+  ## i.e.
+
+```python my_project/main.py```
+
+```python -m my_project.main```
+
 Simple Rule:
 
 Without ```-m```: Python runs the file directly.
