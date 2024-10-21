@@ -25,6 +25,11 @@ When you see ```package structure in main_1.py: None```, it means that Python do
 - This typically means you're running the file directly (using python main_1.py)
 - The module isn't being imported as part of a proper package structure
 
+### How to fix the ```Non``` error:
+
+- use: ``` -m
+  
+i.e. : ```python -m your_project.main_1```
 
 ### Use ```-m``` when:
 
