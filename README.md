@@ -27,7 +27,7 @@ When you see ```package structure in main_1.py: None```, it means that Python do
 
 ### How to fix the ```Non``` error:
 
-- use: ``` -m
+- use: ```-m```
   
 i.e. : ```python -m your_project.main_1```
 
