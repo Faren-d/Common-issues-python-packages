@@ -1,5 +1,5 @@
 # Common-issues-python-packages
-
+## ```os.getcwd()```
 ```bash
 import os
 print(os.getcwd())
