@@ -1,6 +1,12 @@
 # Common-issues-python-packages
 
-Use ```-m``` when:
+## Packages
+
+A package in Python is simply a directory that contains Python modules (```.py``` files) and a special ```__init__```.py file. This structure allows you to group related modules together.
+
+The ```__package__``` variable is a special string variable that contains the package name of the current module. It helps Python understand the module's location in the package hierarchy.
+
+### Use ```-m``` when:
 
 - You get package/import errors
 - You're running a file that's part of a package
