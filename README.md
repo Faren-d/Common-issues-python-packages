@@ -1,6 +1,6 @@
 # Common-issues-python-packages
 
-# ```bash
+```bash
 import os
 print(os.getcwd())
 ```
@@ -11,7 +11,7 @@ print(os.getcwd())
 - Useful when you need to know where Python is running from
 
 
-# ```bash
+ ```bash
 import sys
 print(sys.path)
 ```
