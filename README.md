@@ -4,3 +4,8 @@
 import os
 print(os.getcwd())
 ```
+##
+- Shows your Current Working Directory (CWD)
+- It's like asking "Where am I right now?"
+- Returns a single path as a string
+- Useful when you need to know where Python is running from
