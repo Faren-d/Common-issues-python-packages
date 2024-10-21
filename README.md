@@ -12,7 +12,7 @@ Use ```-m``` when:
 
 ```python -m my_project.main```
 
-Simple Rule:
+## Simple Rule:
 
 Without ```-m```: Python runs the file directly.
 
