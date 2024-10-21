@@ -92,11 +92,22 @@ print(sys.path)
 - os.getcwd() is like your current address
 - sys.path is like a list of all places you're allowed to get things from
 
- ```pip freeze | grep search_term```
+###  ```pip freeze | grep search_term```
 
- Breaking it down:
+ ### Breaking it down:
 
 ```pip freeze```: Lists all installed Python packages with versions
+
 ```|```: Pipe operator (sends output of first command to second)
+
 ```grep```: Command to search for text patterns
+
 ```search_term```: What you're looking for
+
+### Think of it like this:
+
+```pip freeze``` is like taking a snapshot of all your installed packages
+
+```grep``` is like using Ctrl+F to search in that list
+
+The ```|``` (pipe) connects these actions
