@@ -12,6 +12,19 @@ Without ```-m```: Python runs the file directly.
 
 With ```-m```: Python runs the file as part of a package.
 
+## Quick checklist - Use ```-m``` when:
+
+✅ You see "No module named..." errors
+✅ You're using relative imports (with dots)
+✅ Your file is part of a larger package
+✅ You need ```__package__``` to be set correctly
+
+## Don't need ```-m``` when:
+
+❌ Running standalone scripts
+❌ Using only absolute imports
+❌ Running files not part of a package
+
 ### ```os.getcwd()```
 ```bash
 import os
