@@ -129,7 +129,6 @@ The ```|``` (pipe) connects these actions
 
  - Example:
   ```bash
-  try:
     number = int(input("Enter a number: "))
     result = 10 / number
     print(f"Result: {result}")
@@ -143,8 +142,7 @@ except:
 
 _ This will let your program continue running even when errors occur
 
-###
-```which python```
+ ```which python```
 
 - Also you can use the following to verify which Python interpreter is in use:
 
