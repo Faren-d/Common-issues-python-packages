@@ -127,7 +127,7 @@ The ```|``` (pipe) connects these actions
 
   - Use a ```try-except``` block is the Pythonic way to handle optional dependencies and import errors gracefully.
 
- - Example:
+#### Example:
   ```bash
     try:
     number = int(input("Enter a number: "))
@@ -139,21 +139,25 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 except:
     print("Some other error occurred")
-    ```
+```
 
-_ This will let your program continue running even when errors occur
+####  This will let your program continue running even when errors occur
 
 
- ```which python```
+####  ```which python```
 
-- Also you can use the following to verify which Python interpreter is in use:
+ The ```which python``` command is a useful terminal command that shows you the path to the Python interpreter that's currently being used.
+
+#### ```sys.executable```
+
+You can also use the following to verify which Python interpreter is in use:
 
 ```bash
 import sys
 print(sys.executable)
 ```
   
-The ```which python``` command is a useful terminal command that shows you the path to the Python interpreter that's currently being used.
+
 
 ## Import Issues in Notebooks (Jupyter/IPython)
 
