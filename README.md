@@ -6,7 +6,7 @@ A package in Python is simply a directory that contains Python modules (```.py``
 
 The ```__package__``` variable is a special string variable that contains the package name of the current module. It helps Python understand the module's location in the package hierarchy.
 
-### "ImportError: attempted relative import with no known parent package" error:
+### "ImportError: attempted relative import with no known parent package" 
 
 1. This typically happens when you try to use relative imports (like from .. import something) but Python can't determine the package structure
 
@@ -27,7 +27,9 @@ When you see ```package structure in main_1.py: None```, it means that Python do
 
 ### How to fix the ```Non``` error:
 
-- use: ```-m```
+### Use: ```-m``` to:
+
+- Run the module as a script and allow the module to be part of the package during execution
   
 i.e. : ```python -m your_project.main_1```
 
@@ -120,6 +122,26 @@ The ```|``` (pipe) connects these actions
 - Checking package versions
 - Finding related packages
 - Creating requirements files
+
+  ### What to do when you need to import a module that may not be available?
+
+  - Use a ```try-except``` block is the Pythonic way to handle optional dependencies and import errors gracefully.
+
+ - Example:
+  ```bash
+  try:
+    number = int(input("Enter a number: "))
+    result = 10 / number
+    print(f"Result: {result}")
+except ValueError:
+    print("Please enter a valid number")
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except:
+    print("Some other error occurred")
+    ```
+
+_ This will let your program continue running even when errors occur
 
   ### ```which python```
   
