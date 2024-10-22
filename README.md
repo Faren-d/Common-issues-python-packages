@@ -143,7 +143,15 @@ except:
 
 _ This will let your program continue running even when errors occur
 
-  ### ```which python```
+###
+```which python```
+
+- Also you can use the following to verify which Python interpreter is in use:
+
+```bash
+import sys
+print(sys.executable)
+```
   
 The ```which python``` command is a useful terminal command that shows you the path to the Python interpreter that's currently being used.
 
